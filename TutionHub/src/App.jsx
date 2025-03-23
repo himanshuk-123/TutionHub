@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import TutorImage from './assets/tutor-image.jpg'; // Your image
+import TutorImage from './assets/Tutor-image.jpg'; // Your image
 import { FaPhone, FaEnvelope, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const App = () => {
