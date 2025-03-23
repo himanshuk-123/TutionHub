@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.animate-spin-slow {
+  animation: spin 10s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
