@@ -31,7 +31,7 @@ const App = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/contact', formData);
+      await axios.post('https://tutionhub-backend.onrender.com/api/contact', formData);
       setSubmitted(true);
       setTimeout(() => setSubmitted(false), 4000);
       setFormData({ name: '', email: '', message: '' });
